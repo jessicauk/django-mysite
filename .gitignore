@@ -1,0 +1,43 @@
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Django
+*.log
+*.pot
+*.pyc
+local_settings.py
+db.sqlite3
+
+# Virtual environment
+venv/
+env/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Dependencies
+/.venv
+/.env
+/.pytest_cache
+/.mypy_cache
+/.coverage
+/.cache
+
+# Build artifacts
+/build/
+/dist/
+*.egg-info/
+*.egg
+
+# Miscellaneous
+*.bak
+*.swp
+*.tmp
+*.tmp.*
+*~
